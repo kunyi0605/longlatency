@@ -1,6 +1,5 @@
 #!/bin/bash
 # change all files to 777
-cd /home/smartm_user/Jenkins/TestItem/Linux-Item/longlatency
 find ./ -type f -exec chmod 777 {} \;
 
 echo "Set device to test: TARGETDEVICE"
